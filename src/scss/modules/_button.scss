@@ -1,4 +1,5 @@
 .button-buy {
+  position: absolute;
   display: inline-flex;
   padding: 80px 28px 30px 28px;
   justify-content: flex-end;
@@ -10,7 +11,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-left: 900px;
+  margin-left: 650px;
   cursor: pointer;
 }
 
