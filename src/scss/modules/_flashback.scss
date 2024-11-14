@@ -1,0 +1,39 @@
+.flashback {
+  background: #fce7e5;
+}
+
+.flashback-ysa-run {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 92px;
+}
+
+.flashback-baron-text {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  margin-top: 420px;
+  margin-left: 310px;
+  color: #e7364d;
+  font-family: "Basic Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.flashback-baron-text-second {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  margin-left: -260px;
+  margin-top: -90px;
+  color: #e7364d;
+  font-family: "Basic Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

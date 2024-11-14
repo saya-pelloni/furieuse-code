@@ -1,0 +1,20 @@
+.button-buy {
+  display: inline-flex;
+  padding: 80px 28px 30px 28px;
+  justify-content: flex-end;
+  border-radius: 0px 0px 5px 5px;
+  background: #e7364d;
+  color: #96ea39;
+  font-family: "Basic Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 900px;
+  cursor: pointer;
+}
+
+.button-buy :hover {
+  color: #ff00d0;
+  background-color: #ff00d0;
+}
