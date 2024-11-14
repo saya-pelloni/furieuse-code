@@ -19,7 +19,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.to(".flashback-baron-text", {
   opacity: 10,
   scrollTrigger: {
-    trigger: ".expression-baron",
+    trigger: ".flashback-ysa-run",
     start: "top center",
     end: "bottom center",
     toggleActions: "play reverse play reverse",
@@ -30,7 +30,7 @@ gsap.to(".flashback-baron-text", {
 gsap.to(".flashback-baron-text-second", {
   opacity: 10,
   scrollTrigger: {
-    trigger: ".expression-baron-second",
+    trigger: ".flashback-danger",
     start: "top center",
     end: "bottom center",
     toggleActions: "play reverse play reverse",
@@ -42,6 +42,17 @@ gsap.to(".flashback-sword-text", {
   opacity: 10,
   scrollTrigger: {
     trigger: ".expression-baron-sword",
+    start: "top center",
+    end: "bottom center",
+    toggleActions: "play reverse play reverse",
+    markers: false,
+  },
+});
+
+gsap.to(".flashback-weeding-ysa-text", {
+  opacity: 10,
+  scrollTrigger: {
+    trigger: ".flashback-weeding-ysa",
     start: "top center",
     end: "bottom center",
     toggleActions: "play reverse play reverse",
