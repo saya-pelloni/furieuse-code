@@ -37,3 +37,14 @@ gsap.to(".flashback-baron-text-second", {
     markers: false,
   },
 });
+
+gsap.to(".flashback-sword-text", {
+  opacity: 10,
+  scrollTrigger: {
+    trigger: ".expression-baron-sword",
+    start: "top center",
+    end: "bottom center",
+    toggleActions: "play reverse play reverse",
+    markers: false,
+  },
+});
