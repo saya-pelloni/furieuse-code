@@ -88,6 +88,6 @@ document.addEventListener("scroll", () => {
   const scrollPosition = window.scrollY;
 
   document.querySelector(".parallax-tree ").style.transform = `translateX(${
-    scrollPosition * 0.2
+    scrollPosition * 0.1
   }px)`;
 });
