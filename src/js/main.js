@@ -59,3 +59,35 @@ gsap.to(".flashback-weeding-ysa-text", {
     markers: false,
   },
 });
+
+document.addEventListener("scroll", () => {
+  const scrollPosition = window.scrollY;
+
+  document.querySelector(".parallax-cloud").style.transform = `translateX(${
+    scrollPosition * 0.3
+  }px)`;
+});
+
+document.addEventListener("scroll", () => {
+  const scrollPosition = window.scrollY;
+
+  document.querySelector(".parallax-groseille").style.transform = `translateX(${
+    scrollPosition * 0.6
+  }px)`;
+});
+
+document.addEventListener("scroll", () => {
+  const scrollPosition = window.scrollY;
+
+  document.querySelector(".parallax-stone").style.transform = `translateX(${
+    scrollPosition * 0.4
+  }px)`;
+});
+
+document.addEventListener("scroll", () => {
+  const scrollPosition = window.scrollY;
+
+  document.querySelector(".parallax-tree ").style.transform = `translateX(${
+    scrollPosition * 0.2
+  }px)`;
+});
